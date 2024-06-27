@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify, make_response, render_template, send_file
-from appcore import AppCore
+from appcore import AppCore as ac
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'test_114514'
