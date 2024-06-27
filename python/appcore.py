@@ -55,9 +55,11 @@ class AppCore:
         active = True
         while active:
             uuid1 = str(uuid.uuid4())
-            if content[self.today()][uuid1]:
+            if uuid1 in content:
                 active = True
             else:
+                if not self.today() in content:
+                    content[self.today()] = {}
                 content[self.today()][uuid1] = {}
                 active = False
         content[self.today()][uuid1]['sign'] = sign

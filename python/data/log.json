@@ -1,1 +1,24 @@
-{}
+{
+    "2024.06.27": {
+        "c022184f-e4dc-49a1-9681-9e01b9e02d40": {
+            "sign": "E",
+            "msg": "MSG"
+        },
+        "3eb089e4-c7f3-4b39-b4d9-376d08ff11ac": {
+            "sign": "E",
+            "msg": "MSG"
+        },
+        "776959b0-ab71-4bce-9aea-4aa96baa92ce": {
+            "sign": "E",
+            "msg": "MSG"
+        },
+        "9246705b-d225-49ff-aa8a-33692b6fb99d": {
+            "sign": "E",
+            "msg": "MSG"
+        },
+        "f3fee7a0-a635-40f2-a603-633396fcfa93": {
+            "sign": "E",
+            "msg": "MSG"
+        }
+    }
+}
