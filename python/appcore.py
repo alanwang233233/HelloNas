@@ -70,4 +70,10 @@ class AppCore:
             return False
 
     def get_log_info(self, logid, date):
-        return self.json_load_data('log.json')[date][logid]
+        content = self.json_load_data('log.json')
+        if content:
+            if date in content:
+                if logid in content[date]:
+                    if 'sign' in content[date][logid] and 'msg' in content[date][logid]:
+                        return content[date][logid]['sign'] , content[date][logid]['msg']
+        return False
